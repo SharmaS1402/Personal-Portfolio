@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam - Student portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(8, 8, 62);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(58 58 130);
+        }
+
+        .left {
+            font-size: 21px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            color: rgb(185, 185, 225);
+            /* font-size: 1.02rem; */
+        }
+
+        #firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 75px 0;
+        }
+
+        #firstsection>div {
+            /* background-color: red; */
+            width: 30%;
+        }
+
+        .leftSection {
+            /* background-color: red; */
+            font-size: 2.5rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: #8749c0;
+        }
+
+        #element {
+            color: #8749c0;
+        }
+
+        #secondSection {
+            max-width: 80vw;
+            margin: auto;
+            padding-bottom: 23px;
+        }
+
+        #secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .gallery {
+            display: flex;
+            align-items: center;
+            /* border: 2px solid red; */
+            background-color: #c5c5c6;
+            margin: 23px 12px;
+            padding: 23px 34px;
+            border-radius: 18px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #8749c0ed;
+            background-color: #061830;
+            margin: 23px 12px;
+            padding: 23px 82px;
+            border-radius: 18px;
+        }
+
+        .box img {
+            height: 109px;
+            width: 170px;
+            display: block;
+            margin: auto;
+            padding: 12px;
+        }
+
+        .box h2 {
+            text-align: center;
+        }
+
+        .box p {
+            margin: 23px -34px;
+        }
+       #contact{
+        margin-bottom: 35px;
+       }
+        #contact ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* text-decoration: none; */
+        }
+        #contact ul li{
+            list-style: none;
+            padding : 23px;
+            font-size: 1.02rem;
+        }
+        #contact ul li a{
+            text-decoration: none;
+            color: white;
+            font-size:1.3rem;
+        }
+        #contact ul li a:hover{
+            color:#8749c0;
+        }
+        #contact h1{
+            font-size: 2.1rem;
+            margin : -8px 46px;
+            padding : 0 86px;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(58 58 130);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shivam's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#secondSection">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="#secondSection">Projects</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="firstsection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Shivam</span>
+                <div>
+                    and I am a Passionate
+                </div>
+                <div><span id="element"></span></div>
+
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="sorry">
+            </div>
+        </section>
+        <hr>
+        <section id="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Project Gallery</h1>
+            <div class="gallery">
+                <div class="box">
+                    <img src="food delivery.jpg" alt="">
+                    <h2>Online Food Ordering</h2>
+                    <p class="description">
+                        MyOnlineMeal is an innovative online food ordering platform designed to revolutionize the way people
+                        experience and enjoy food. This user-friendly <span id="element">responsive</span> frontend website offers
+                          a seamless and convenient ordering experience from the
+                        comfort of their homes. Backend development for this project is in progress.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="hostel allotment.jpg" alt="">
+                    <h2>Hostel Allotment</h2>
+                    <p class="description">
+                        HostelHub is a cutting-edge online platform designed to streamline and simplify the hostel allotment process for students and educational institutions. This user-centric website redefines the way students secure accommodations by providing a convenient and efficient online booking system.Currently <span id="element">in progress.</span>
+
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="band generator.jpg" alt="">
+                    <h2>Band-Name Generator</h2>
+                    <p class="description">
+                        HarmonyForge is an exciting and whimsical project that adds a touch of creativity to the world
+                        of music. This innovative Random Band Name Generator is designed to inspire aspiring musicians,
+                        bands, or anyone in need of a catchy and unique name for their musical endeavors.It is an <span id="element">express web-application.</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <h1>Contact</h1>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/shivam-sharma-294798269/">LinkedIn</a></li>
+                <li><a href="mailto:22bcs104@nith.ac.in">Email</a></li>
+                <li><a href="/">Instagram</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer >
+        <div class="center">
+            Copyright &copy; www.myPortfolio.com  All rights reserved!!
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['C++ Programmer', 'ML Enthusiast', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

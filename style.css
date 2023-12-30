@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(8, 8, 62);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(58 58 130);
+}
+
+.left {
+    font-size: 21px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: rgb(185, 185, 225);
+    /* font-size: 1.02rem; */
+}
+
+#firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 75px 0;
+}
+
+#firstsection>div {
+    /* background-color: red; */
+    width: 30%;
+}
+
+.leftSection {
+    /* background-color: red; */
+    font-size: 2.5rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: #8749c0;
+}
+
+#element {
+    color: #8749c0;
+}
+
+#secondSection {
+    max-width: 80vw;
+    margin: auto;
+    padding-bottom: 23px;
+}
+
+#secondSection h1 {
+    font-size: 2rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #c5c5c6;
+    margin: 23px 12px;
+    padding: 23px 34px;
+    border-radius: 18px;
+     overflow : auto;        /*   change starts here   */
+     
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #8749c0ed;
+    background-color: #061830;
+    margin: 23px 12px;
+    padding: 23px 82px;
+    border-radius: 18px;
+}
+
+.box img {
+    height: 109px;
+    width: 170px;
+    display: block;
+    margin: auto;
+    padding: 12px;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.box p {
+    margin: 23px -34px;
+}
+#contact{
+margin-bottom: 35px;
+}
+#contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* text-decoration: none; */
+}
+#contact ul li{
+    list-style: none;
+    padding : 23px;
+    font-size: 1.02rem;
+}
+#contact ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:1.3rem;
+}
+#contact ul li a:hover{
+    color:#8749c0;
+}
+#contact h1{
+    font-size: 2.1rem;
+    margin : -8px 46px;
+    padding : 0 86px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58 58 130);
+    
+}
